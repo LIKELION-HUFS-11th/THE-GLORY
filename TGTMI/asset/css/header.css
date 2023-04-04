@@ -1,0 +1,45 @@
+#header{
+
+}
+
+/* main logo */
+#header a{
+    display: block;
+    width: 400px;
+    height: 150px;
+    background-image: url("../img/header/main_logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* navigation bar */
+#header nav{
+    margin-top: 10px;
+    border-top: 5px solid #eee;
+    border-bottom: 5px solid #eee;
+    box-sizing: border-box;
+}
+
+#header nav ul{
+    display: flex;
+    width: 100%;
+}
+
+#header nav ul li{
+    display: block;
+    width: calc(100% / 7);
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 27px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: all 0.7s;
+    cursor: pointer;
+}
+
+#header nav ul li:hover{
+    background-color: #eee;
+}

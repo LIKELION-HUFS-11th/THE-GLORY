@@ -2,8 +2,12 @@
 *{
     margin: 0 auto;
     padding: 0;
+    list-style: none;
 }
 .wrap{
     width: 1280px;
     margin:0 auto;
+}
+#default{
+    height:700px;
 }
