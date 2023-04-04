@@ -2,6 +2,7 @@
 
 2023 4. 4 회의록
 Title : 자신만의 TMI를 소개하는 페이지를 만들어 보자 !
+<img width="437" alt="스크린샷 2023-04-04 18 29 55" src="https://user-images.githubusercontent.com/83502596/229749697-300ee35f-2aa9-42d4-9f8b-57db40b7e9b0.png">
 
 파일 로컬에 가져오는 법
 https://github.com/LIKELION-HUFS-11th/THE-GLORY 의 <>code 버튼을 눌러 Download zip 파일을 다운 받아 로컬에서 작업한다.
