@@ -1,0 +1,7 @@
+#default{
+    background-image: url("../img/default/default_img.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    transform: scale(0.9);
+}
