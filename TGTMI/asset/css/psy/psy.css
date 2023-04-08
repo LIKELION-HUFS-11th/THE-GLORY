@@ -1,4 +1,43 @@
-#psy{
-    /* height는 바꾸지 말아주세요 ! */
+#psy {
     height:700px;
+    width:100vw;
+    display: flex;
+    font-family: 'Poor Story', cursive;
+}
+
+.img{
+    background: url(../../img/psy/시연.jpg) no-repeat;
+    width: 1em;
+    height: 1em;
+    overflow:hidden;
+    margin: 0 auto;
+    border-radius: 20px
+}
+
+h1{
+    display:inline-block;
+    text-align: center;
+    width: 100%;
+    flex-direction: column;
+    border:5px solid #eee;
+    box-sizing: border-box;
+    border-radius: 20px;
+    font-size: 2rem
+}
+.name{
+    display: contents;
+    text-align: center;
+    text-indent: 10px;
+    font-size: 3rem;
+    font-style: large;
+    color: palevioletred
+}
+
+.category{
+    display: flex;
+    text-indent: 50px;
+    /* text-align: left; */
+    font-size: 2.5rem;
+    font-style: medium;
+    color: palevioletred
 }
