@@ -1,4 +1,5 @@
 #cjy {
+    display: none;
     /* height는 바꾸지 말아주세요 ! */
     height:700px;
     max-width: 68em;
@@ -8,7 +9,6 @@
     filter: none;
     border: 0;
     font: inherit;
-    display: block;
     background-image: url(../../img/cjy/background.png);
 }
 

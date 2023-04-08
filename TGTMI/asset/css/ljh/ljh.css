@@ -1,7 +1,7 @@
 #ljh{
     /* height는 바꾸지 말아주세요 ! */
     height:700px;
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: space-between;
     font-family: "Segoe UI", Arial, sans-serif;

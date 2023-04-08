@@ -1,6 +1,7 @@
 #footer {
     border-top: 5px solid #eee;
     box-sizing: border-box;
+    margin-top: 30px;
 }
 
 #footer p{
