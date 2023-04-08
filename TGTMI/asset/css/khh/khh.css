@@ -5,7 +5,7 @@
     display: flex;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-.khh_box{
+#khh .khh_box{
     position: relative;
     flex-direction: column;
     width: 90%;
@@ -14,7 +14,7 @@
     box-sizing: border-box;
     flex-direction: column;
 }
-.khh_box .khh_top{
+#khh .khh_box .khh_top{
     display: flex;
     flex-direction: column;
     height: 100px;
@@ -22,7 +22,7 @@
     background-color: #685F7A;
     margin-bottom: 30px;
 }
-.khh_box .khh_top h2{
+#khh .khh_box .khh_top h2{
     display: flex;
     position: relative;
     text-align: center;
@@ -33,16 +33,16 @@
     vertical-align: middle;
 }
 /* 여기부터 메인구역 */
-.container_khh{
+#khh .container_khh{
     position: relative;
     display: flex;
     justify-content: space-between;
 }
-.container_khh div:nth-child(1){
+#khh .container_khh div:nth-child(1){
     width: calc(100% / 3);
 }
 
-.container_khh div:nth-child(1) div{
+#khh .container_khh div:nth-child(1) div{
     height: 350px;
     width: 80%;
     background-image: url("../../img/khh/animal_khh.jpg");
@@ -50,20 +50,20 @@
     background-size: contain;
     background-position:center;
 }
-.container_khh div:nth-child(1) ul{
+#khh .container_khh div:nth-child(1) ul{
     padding-left: 10px;
 }
 
-.container_khh p{
+#khh .container_khh p{
     text-align: center;
     line-height: 3;
 }
 
-.container_khh div:nth-child(2){
+#khh .container_khh div:nth-child(2){
     width: calc(100% / 3);
 }
 
-.container_khh div:nth-child(2) div{
+#khh .container_khh div:nth-child(2) div{
     height: 350px;
     width: 80%;
     background-image:
@@ -72,15 +72,15 @@
      background-size: cover;
      background-position: center;
 }
-.container_khh div:nth-child(2) ul{
+#khh .container_khh div:nth-child(2) ul{
     padding-left: 10px;
 }
 
-.container_khh div:nth-child(3){
+#khh .container_khh div:nth-child(3){
     width: calc(100% / 3);
 }
 
-.container_khh div:nth-child(3) div{
+#khh .container_khh div:nth-child(3) div{
     height: 350px;
     width: 80%;
     background-image: url("../../img/khh/room.jpg");
@@ -88,7 +88,7 @@
     background-size: contain;
     background-position: center;
 }
-.container_khh div:nth-child(3) ul{
+#khh .container_khh div:nth-child(3) ul{
     padding-left: 25px;
     
 }
