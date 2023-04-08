@@ -1,4 +1,94 @@
 #khh{
     /* height는 바꾸지 말아주세요 ! */
     height:700px;
+    width: 100%;
+    display: flex;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.khh_box{
+    position: relative;
+    flex-direction: column;
+    width: 90%;
+    height: 90%;
+    border: 10px #685F7A double;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+.khh_box .khh_top{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    line-height: 100px;
+    background-color: #685F7A;
+    margin-bottom: 30px;
+}
+.khh_box .khh_top h2{
+    display: flex;
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    color: aliceblue;
+    vertical-align: 10px;
+    font-weight: lighter;
+    vertical-align: middle;
+}
+/* 여기부터 메인구역 */
+.container_khh{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.container_khh div:nth-child(1){
+    width: calc(100% / 3);
+}
+
+.container_khh div:nth-child(1) div{
+    height: 350px;
+    width: 80%;
+    background-image: url("../../img/khh/animal_khh.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:center;
+}
+.container_khh div:nth-child(1) ul{
+    padding-left: 10px;
+}
+
+.container_khh p{
+    text-align: center;
+    line-height: 3;
+}
+
+.container_khh div:nth-child(2){
+    width: calc(100% / 3);
+}
+
+.container_khh div:nth-child(2) div{
+    height: 350px;
+    width: 80%;
+    background-image:
+     url("../../img/khh/noodle.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+}
+.container_khh div:nth-child(2) ul{
+    padding-left: 10px;
+}
+
+.container_khh div:nth-child(3){
+    width: calc(100% / 3);
+}
+
+.container_khh div:nth-child(3) div{
+    height: 350px;
+    width: 80%;
+    background-image: url("../../img/khh/room.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.container_khh div:nth-child(3) ul{
+    padding-left: 25px;
+    
 }
