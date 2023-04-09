@@ -2,7 +2,7 @@
     /* height는 바꾸지 말아주세요 ! */
     height:700px;
     width:100%;
-    display: flex;
+    display: none;
 }
 
 #ksy .wrap_sy {

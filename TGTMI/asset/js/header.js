@@ -46,7 +46,7 @@ ksy_btn.onclick = function(){
     psy_tmi.style.display='none';
     ljh_tmi.style.display='none';
     cjy_tmi.style.display='none';
-    ksy_tmi.style.display='block';
+    ksy_tmi.style.display='flex';
 }
 
 khh_btn.onclick = function(){
